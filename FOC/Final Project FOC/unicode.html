@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="This is a page that define whta FOC is and links you to the W3Schools" />
+    <meta name="author" content="Kurston Vassel" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Final Project FOC/FOCstyle.css"> 
+    <title>Unicode</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Project 5: UNICODE</h1>
+    </header>
+
+
+    <center>
+        <p>Please input UNICODE number:</p>
+        
+        <input id="numb" type="text">
+        
+        <button type="button" onclick="myFunction()">Submit</button>
+        <br>
+        <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+         
+          <tr>
+            <th><center><p id="demo"></center></p></th>
+          </tr>
+          
+        </table>
+        
+        
+        <p><img src="/Final Project FOC/images/uni1.jpg" style="width:700px;height:400px;"></p>
+        <p><img src="/Final Project FOC/images/uni3.jpg" style="width:700px;height:400px;"></p>        
+        <p><img src="/Final Project FOC/images/uni4.jpg" style="width:700px;height:400px;"></p>  			
+        
+        <p></p>
+        <p></p>         
+        
+        <br>
+        
+        
+        </center>
+        
+        <script>
+        function myFunction() {
+          var x, text;
+        
+          // Get the value of the input field with id="numb"
+          x = document.getElementById("numb").value;
+        
+          
+            text = x;
+            unicode = ("&#x" + x)
+          
+          document.getElementById("demo").innerHTML = unicode;
+        }
+        </script>
+        
+        
+        </section>
+        
+        
+        <a href="Course.html">Back to Home</a></h3> <br>
+
+        <h3><a href="project.html"><i class="material-icons"></i>BACK TO PROJECTS</a></h3>
+
+
+
+    <footer>
+        <small><i>Copyright &copy; 2023 Kurston Vassel</i></small>
+    </footer>
+      </body>
+    </html>

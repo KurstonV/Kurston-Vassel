@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="This is a page that define whta FOC is and links you to the W3Schools" />
+    <meta name="author" content="Kurston Vassel" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Final Project FOC/FOCstyle.css"> 
+    <title>binarytohex</title>
+
+    <style>
+        img {
+          float: left;
+         padding-right: 40px; 
+         padding-left: 40px;
+         padding-bottom: 40px;
+         
+        }
+        </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Project 3: Binary To Hexidecimal</h1>
+    </header>
+<section>
+    
+<p><img src="/Final Project FOC/images/bintohex.jpg"></p>
+        
+			
+         
+<input type="number" id="inputBin" value="">
+
+<p>Enter any 4 digit binary number:</p>
+
+<button onclick="binToHex()">Submit</button>
+
+<p>Hexidecimal Value : </p>
+<p id="demo"></p>
+
+<script>
+function binToHex() {
+  var x = document.getElementById("inputBin").value;
+  var hexOut = parseInt(x , 2).toString(16).toUpperCase();
+  document.getElementById("demo").innerHTML = hexOut;
+  }
+</script>
+
+
+
+</section>
+
+
+<a href="Course.html">Back to Home</a></h3> <br>
+
+<h3><a href="project.html"><i class="material-icons"></i>BACK TO PROJECTS</a></h3>
+
+
+    <footer>
+        <small><i>Copyright &copy; 2023 Kurston Vassel</i></small>
+    </footer>
+      </body>
+    </html>

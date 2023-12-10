@@ -1,0 +1,67 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: lightgrey;
+    }
+
+    header {
+      background-color: #191970;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    p {
+        color: black;
+    }
+
+    .top {
+        color: whitesmoke;
+    }
+
+    .bottom {
+        color: brown;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: darkblue;
+    }
+
+    .info {
+      margin-bottom: 20px;
+    }
+
+    .experience,
+    .education {
+      margin-bottom: 30px;
+    }
+
+    .experience h3,
+    .education h3 {
+      color: #b2967d;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    .skills {
+      margin-bottom: 30px;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }

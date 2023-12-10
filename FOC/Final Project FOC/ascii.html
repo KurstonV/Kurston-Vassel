@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project 5: ASCII</title>
+<link rel="stylesheet" type="text/css" href="/Final Project FOC/FOCstyle.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  float: left;
+ padding-right: 40px; 
+ padding-left: 40px;
+ padding-bottom: 40px;
+ 
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Project 4: ASCII</h1>
+      </header>
+
+<section>
+<hr>	
+
+
+<p><img src="ascii.png" style="width:792px;height:528px;"></p>
+                
+
+
+<p>Enter any number from 0 to 127 :</p>
+<input id="inputdec" >
+<p></p>
+<button onclick="decToASCII()">Submit</button>
+<p></p>
+<p>ASCII Value : </p>
+<p id="demo"></p>
+
+<script>
+function decToASCII() {
+  x = document.getElementById("inputdec").value;
+  var res = String.fromCharCode(x);
+  document.getElementById("demo").innerHTML = res;
+  console.log(res);
+}
+</script>
+
+
+
+</section>
+
+
+<a href="Course.html">Back to Home</a></h3> <br>
+
+<h3><a href="project.html"><i class="material-icons"></i>BACK TO PROJECTS</a></h3>
+
+
+    <footer>
+        <small><i>Copyright &copy; 2023 Kurston Vassel</i></small>
+    </footer>
+      </body>
+    </html>
